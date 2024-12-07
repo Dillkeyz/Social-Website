@@ -1,0 +1,78 @@
+body {
+    font-family: "Lexend", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 600px) {
+    body {max-width: 100vw}
+  }
+
+.container {
+    text-align: center;
+}
+
+.error h1 {
+    font-size: 7rem;
+}
+
+.error p {
+    font-size: 3rem;
+}
+.nav_bar{
+    font-size: 1.6rem;
+    -webkit-text-fill-color: white;
+    background-color: rgb(7, 0, 111);
+    justify-content: right;
+    display: grid; 
+    text-align: center;
+    z-index:1;
+    width: 100%;
+}
+
+.nav_bar a{
+    background-color: rgba(7, 0, 111, 0.622);
+    margin-left: 2rem;
+    height: 3rem;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: 10px;
+    margin-left: 5rem;
+    -webkit-text-fill-color: white;
+
+
+}
+.navbar-brand a {
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-decoration: none;
+    position:relative;
+    z-index:1;
+}
+
+.navbar-brand p{
+    font-size: 0.8rem;
+    top: -5px;
+    position: absolute;
+    font-weight: 600;
+    z-index:1;
+}
+
+.navbar-toggler{
+    float: left;
+    text-align:center;
+    display: block;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+.navbar{
+    position: relative;
+    z-index:1;
+    justify-content: right;
+}
+

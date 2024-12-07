@@ -1,0 +1,32 @@
+{% extends "base.html" %} {%block title%}Welcome{%endblock%}
+
+{% block head %}
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/base.css') }}"/>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}"/>
+{% endblock %}
+{%block content%}
+<div class="intro">
+    
+    <h1 class="title">Welcome</h1>
+    <p>This is my website, I am making this just to put another thing into my portfolio.</p>
+</div>
+<div class="guide">
+    <div class="info1">
+        <div class="social-info">
+            <h1>Socials</h1>
+            <p>Social media, a place where people make false accounts and steal other peoples content. Some might try to be you, so in this section this will have all of my socials. If you are wondering if the account is legit you can use this section of the website. </p>
+            <a  style="text-decoration: none;" href="/Socials" class="s-btn" type="button"><div id="text">Take Me</div></a>
+        </div>
+    </div>
+    <div class="info2">
+        <div class="video-info">
+            <h1> Videos</h1>
+            <p>Videos, when I upload videos they will also posted here. So if got some restriction or can't access youtube, tiktok, twitch live streams. Then you can see them here!</p>
+            <a  style="text-decoration: none;" href="/Videos" class="v-btn" type="button"><div id="text2">Take Me</div></a>
+        </div>
+    </div>
+    <div class="info3">
+
+    </div>
+</div>
+{%endblock%}
